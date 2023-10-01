@@ -1,0 +1,14 @@
+.btn-success:hover{
+    background-color: gold;
+    font-size: 25px;
+    color: blue;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px mediumseagreen;}
+    to{box-shadow: 1px 1px 38px khaki;}
+}
